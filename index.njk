@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>{{ title }}</title>
+</head>
+<body>
+	<header>
+		<h1>Fedi CW</h1>
+	</header>
+	<hr>
+	<main>
+		{#- I don't like this but I couldn't find a neater way #}
+		<summary>{{ fedicw.desc | safe | replace("\n", " ") | replace("  ", "\n\n") | nl2br }}</summary>
+		<hr/>
+		<section>
+		{%- for topic, cws in fedicw | nodesc %}
+			<nav>
+				<h4 title="{{ cws.desc }}">{{ topic }}</h4>
+				<ul>
+				{%- for cw, info in cws | nodesc %}
+				<li><a href="#{{ cw | urlencode }}" title="{{ info.desc }}"><b>{{ cw }}</b>{% if info.abr %} - <i>{{ info.abr }}</i>{% endif %}</a></li>
+				{%- endfor %}
+				</ul>
+			</nav>
+		{%- endfor %}
+		</section>
+		<hr/>
+		<ul>
+		{%- for topic, cws in fedicw | nodesc %}
+			<li>
+				<h2>{{ topic }}</h2>
+				<summary>{{ cws.desc }}</summary>
+				{%- for cw, info in cws | nodesc %}
+				<div>
+					<h3 id="{{ cw | urlencode }}">{{ cw }}</h3>
+					{% if info.abr %}<b>{{ info.abr }}</b>{% endif %}
+					<p>{{ info.desc }}</p>
+				</div>
+				{%- endfor %}
+				<hr/>
+			</li>
+		{%- endfor %}
+		</ul>
+	</main>
+	<footer>
+		Made by <a href="https://akko.wtf/kaitlynethylia">@KaitlynEthylia@Akko.wtf</a> on fedi :)
+		<br/>
+		Contributions are welcome! <a href="https://github.com/KaitlynEthylia/FediCW">GitHub</a>
+	</footer>
+</body>
+</html>

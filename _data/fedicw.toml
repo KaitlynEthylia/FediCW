@@ -1,0 +1,157 @@
+desc = """
+A lot of people on the Fediverse use abbreviations when entering
+content warnings. Whether or not that's a good thing to do or not is
+besides the point. The fact is, it's a thing that happens, and there
+are quite a few abbreviations, which can make it pretty difficult for
+somebody that's new to fedi.
+
+Below is a list of content warnings that are relatively often seen on
+fedi. There are also some more obscure ones, as this is meant to be a
+fairly comprahensive list. If there are any missing that you know of,
+please do feel free to contribute!
+"""
+
+[politics]
+desc = """These tags indicate that the post is political in nature.
+There are some tags to specify the specific kind of political content,
+but pretty much all tags will end in 'pol', making it easy to filter
+for."""
+pol.abr = "Politics"
+pol.desc = """The post is about something political. This tag isn't
+very specific so it's usually a good idea to use one of the other tags
+below."""
+XXpol.abr = "[country] Politics"
+XXpol.desc = """The post is about current politics in a particular
+country. The letters at the beginning of the tag are usually the
+particular country code. i.e. 'uspol': USA politics; 'ukpol': UK
+politics; 'depol': German politics."""
+abspol.abr = "Abstract Politics"
+abspol.desc = """The post is about anything that isn't related to the
+politics of a particular country or any kind of current affairs. A
+general remark about capitalism is the sort of thing to expect."""
+
+[innapropriate]
+desc = "The content of these posts is not appropriate for minors."
+nsfw.abr = "Not Safe For Work"
+nsfw.desc = """A generic tag for any innapropriate content. Usually
+used in the lewd sense, as people posting gore should have enough
+sense to be specific about it, and not trick poor innocent people
+simply looking for lewd photos."""
+lewd.desc = """The post contains some kind of sexual content. Often
+the tag is used for lightly innapropriate content, whereas 'nsfw' is
+used for overtly sexual stuff."""
+"gore / graphic".desc = """The post contains mention of or images of
+injuries, blood, or otherwise overtly 'medical' imagery that may make
+a people uncomfortable."""
+
+[personal]
+desc = """Posts with this tag are to do with someone's personal life.
+They may not have particularly upsetting content but the more serious
+tone and potential to invoke an emotional response makes it a pretty
+common thing to content-warn. These tags are usually placed with a
+modifier."""
+mh.abr = "Mental Health"
+mh.desc = """The post is about somebodies mental health. For example,
+the poster may be opening up about struggles with depression, sharing
+their progress in overcoming anxiety, or just commenting on a general
+lowered mood they've been feeling."""
+ph.abr = "Physical Health"
+ph.desc = """The post is about somebodies physical health, such as
+talking about a medical condition they have, or sharing achievements
+in their health, like losing weight, or exercising more."""
+"mutual aid".desc = """The poster, or someone related to the poster,
+is in a difficult life situation, such as having found themself
+recently homeless, and is requesting support of some kind, usually
+financial."""
+yearning.desc = """The poster is expressing a vague kind of desire,
+usually for a romantic relationship, and usually gay."""
+
+[modifiers]
+desc = """These are usually appended to other tags to better indicate
+the tone or the message. They can be reduplicated to strengthen this
+effect. i.e. + may mean something good, but ++ means something
+especially good."""
+"+".abr = "Positive"
+"+".desc = """The post is about something positive. 'mh+' may mean the
+poster's mental health is improving, whereas 'ukpol+' may mean the
+British government finally managed to do something good."""
+"-".abr = "Negative"
+"-".desc = """The post is about something negative. 'ph-' indiactes
+the post is about someone's declining physical health, and 'uspol-'
+means that USA politics is continuing as usual."""
+"/ or ~".abr = "Mixed or Unsure tone"
+"/ or ~".desc = """The tone of the message is uncertain. It could be
+interpretted positively or negatively, or it is simply neutral."""
+"?".abr = "Unsure if tag applies"
+"?".desc = """The poster is unsure whether or not the tag is necessary
+or applies to the post, for example 'mh+?' means that the post is
+about mental health, and the poster thinks is may be a good thing, but
+is unsure."""
+
+[photos]
+desc = """These are tags that apply specifically to posts with images
+attached."""
+selfie.desc = """The post contains a selfie. It's extremely common
+to cover selfies with a content warning, although I'm not entirely
+sure why, so if you do know, please do let me know!"""
+ec.abr = "Eye Contact"
+ec.desc = """Usually used in addition with the 'selfie' tag, this tag
+indicated that the image contains somebody making eye-contact with the
+camera. This is tagged because some people, particularly autistic
+people, struggle with eye contact and the images would cause
+discomfort. """
+ecchi.desc = """The content of the image is NSFW or close to it. See
+the NSFW tag further down."""
+"no alt text".desc = """Image doesn't contain any 'alt text' (The
+caption with the image that describes it). Alt text is very important
+for visually-impared people, people using a screen-reader, people with
+slow internet, and people who just like having the caption, so unlike
+most other social media platforms, failing to provide alt text on an
+image without the warning, is generally frowned upon."""
+
+[non-serious]
+desc = """These posts usually use the content warning as a 'title' or
+a 'preface', and not as a warning. Whether this is a valid use or an
+abuse of the content warning system is irrelavent."""
+what.desc = """The poster is unsure about what they've just posted.
+This usually indicated the content is a shitpost, and the tag is used
+to emphasise it's lack of seriousness."""
+"???".desc = """Usually a more extreme version of the 'what' tag.
+Indicates that the posters believes the content of the post to either
+be a top-tier shitpost, or absolutely incomprihensible."""
+oh.abr = "Overheard"
+oh.desc = """The poster has overheard somebody saying something, and
+has decided to quote it, usually without context. Alternatively, this
+tag can be used to post something and pretend somebody else said it,
+so that you don't feel as ashamed when nobody finds it funny."""
+ooc.abr = "Out of Context"
+ooc.desc = """The poster is quoting something / something, but
+omitting the context of the quote, usually for comedic effect."""
+
+[triggering]
+desc = """Posts using these tags are covering content that could be
+triggering for a particular audience. This is pretty much the textbook
+definition of what the content warning system is intended for for.
+Almost all of the abbreviations are pretty self-explanatory, so the
+descriptions will be short."""
+sh.abr = "Self Harm"
+sh.desc = """The post refeces self harm."""
+sui.abr = "Suicide"
+sui.desc = """The post refeces suicide. Unfortunately there doesn't
+appear to be a common distinction between mentions of suicide and
+mentions of someone actually commiting suicide."""
+alc.abr = "Alcohol"
+alc.desc = """The post mentions alcohol. This tag isn't too commonly
+used, but is a good idea to add, particularly so people that are
+against alcohol, or recovering addicts, can filter out the posts."""
+food.desc = """The post contains mentions of and/or images of food.
+This are covered as they can be triggering for people with eating
+disorders."""
+"ment: ...".abr = "Mentions: ..."
+"ment: ...".desc = """Anything that someones considers may be
+upsetting about the post may sometimes be put in a 'ment: ...' tag
+to indicate the post contains references to it, but is not directly
+about it. For example 'ment: self harm' or 'ment: sh' may be used
+when a post mentions self harm, but not in a specific manner, or
+simply in passing."""
+
