@@ -1,0 +1,120 @@
+@font-face {
+	font-family: "Candara";
+	src: url("/resources/fonts/Candara.ttf")
+}
+@font-face {
+	font-family: "Quicksand";
+	src: url("/resources/fonts/Quicksand.ttf")
+}
+
+:root {
+	--theme: linear-gradient(30deg, #ECF, #FCE) border-box;
+	--theme-basic: #FCE;
+	--background: #11111b;
+	--box: #181825;
+	--text-color: #CDD6F4;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 1em;
+}
+
+body {
+	color: var(--text-color);
+	margin: 0;
+	font-size: 18px;
+	line-height: 1.3;
+	background-color: var(--background);
+	position: relative;
+}
+
+::selection { background: #ECF8; }
+
+header {
+	margin-left: 3em;
+	padding: 0.5em;
+}
+
+header + hr {
+	border-width: 0.3em;
+	margin-top: 0;
+}
+
+hr {
+	border-radius: 1em;
+	margin: 1.5em 2.5em;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 0.2em;
+	background: linear-gradient(var(--background) 0 0) padding-box, var(--theme);
+}
+
+main { margin: 3em; }
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+nav {
+	flex-grow: 1;
+	background-color: var(--box);
+	margin: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	text-align: center;
+}
+
+nav li {
+	margin: 0.2em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li summary { margin: 1em; }
+div {
+	margin: 0 2em;
+	border-top: 1px solid #1e1e2e;
+	padding: 1em;
+}
+div p { margin-left: 1em; }
+div b {
+	margin-top: -1.6em;
+	font-style: italic;
+	float: right;
+}
+
+b { letter-spacing: 1px; }
+a, p, b, summary, footer {
+	font-family: "Candara", sans-serif;
+	text-decoration: none;
+}
+a { color: var(--theme-basic); }
+
+h3, h4 { font-size: 1.5em; }
+h2 { font-size: 2em; }
+h1, h2, h3, h4 {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 100;
+	font-style: italic;
+	text-transform: capitalize;
+	margin: 0.5em;
+}
+
+footer { text-align: center; }
+footer::after {
+	background: var(--theme);
+	height: 1em;
+	position: absolute;
+	content: '';
+	top: max(calc(100vh - 1em), calc(100% + 2em));
+	background-color: #FFF;
+	left: 0;
+	right: 0;
+}
