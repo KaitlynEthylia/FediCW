@@ -13,6 +13,17 @@
 	--background: #11111b;
 	--box: #181825;
 	--text-color: #CDD6F4;
+	--border: #1e1e2e;
+}
+
+@media (prefers-color-scheme: light) {
+:root {
+	--background: #F8FAFF;
+	--text-color: #181825;
+	--box: #EFF1F5;
+	--theme-basic: #A6B;
+	--border: #E2E2EF;
+}
 }
 
 html {
@@ -80,7 +91,7 @@ ul {
 li summary { margin: 1em; }
 div {
 	margin: 0 2em;
-	border-top: 1px solid #1e1e2e;
+	border-top: 1px solid var(--border);
 	padding: 1em;
 }
 div p { margin-left: 1em; }
