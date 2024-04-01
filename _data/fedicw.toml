@@ -29,6 +29,11 @@ abspol.abr = "Abstract Politics"
 abspol.desc = """The post is about anything that isn't related to the
 politics of a particular country or any kind of current affairs. A
 general remark about capitalism is the sort of thing to expect."""
+fediblock.desc = """This is under politics because I guess it's about
+the politics of fedi instances. The post is about blocking a
+particular instance, usually because of some harmful posts on it,
+meaning that the post will probably contain some kind of warn-able
+content, such would warrent the instance being called out."""
 
 [innapropriate]
 desc = "The content of these posts is not appropriate for minors."
@@ -136,6 +141,11 @@ Almost all of the abbreviations are pretty self-explanatory, so the
 descriptions will be short."""
 sh.abr = "Self Harm"
 sh.desc = """The post refeces self harm."""
+sa.abr = "Sexual Assault"
+sa.desc = """The post contains mentions of sexual assault."""
+csa.abr "Child Sexual Assault"
+csa.desc = """The post contains mentions of sexual assault
+specifically targetting minors."""
 sui.abr = "Suicide"
 sui.desc = """The post refeces suicide. Unfortunately there doesn't
 appear to be a common distinction between mentions of suicide and
