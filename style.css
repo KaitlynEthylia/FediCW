@@ -77,26 +77,20 @@ nav {
 	border-radius: 1em;
 	text-align: center;
 }
-
-nav li {
-	margin: 0.2em;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
+li { margin: 0.2em; }
 
-li summary { margin: 1em; }
-div {
+dl summary { margin: 1em; }
+dt {
 	margin: 0 min(2em, 2vw);
 	border-top: 1px solid var(--border);
-	padding: 1em;
 }
-div p { margin-left: 1em; }
-div b {
-	margin-top: -1.6em;
+dl b {
+	margin-top: -1.7em;
 	font-style: italic;
 	float: right;
 }

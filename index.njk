@@ -29,22 +29,22 @@
 		{%- endfor %}
 		</section>
 		<hr/>
-		<ul>
+		<dl>
 		{%- for topic, cws in fedicw | nodesc %}
-			<li>
+			<div>
 				<h2>{{ topic }}</h2>
 				<summary>{{ cws.desc }}</summary>
 				{%- for cw, info in cws | nodesc %}
-				<div>
-					<h3 id="{{ cw | urlencode }}">{{ cw }}</h3>
-					{% if info.abr %}<b>{{ info.abr }}</b>{% endif %}
-					<p>{{ info.desc }}</p>
-				</div>
+					<dt><h3 id="{{ cw | urlencode }}">{{ cw }}</h3></dt>
+					<dd>
+						{% if info.abr %}<b>{{ info.abr }}</b>{% endif %}
+						<p>{{ info.desc }}</p>
+					</dd>
 				{%- endfor %}
 				<hr/>
-			</li>
+			</div>
 		{%- endfor %}
-		</ul>
+		</dl>
 	</main>
 	<footer>
 		Made by <a href="https://akko.wtf/kaitlynethylia">@KaitlynEthylia@Akko.wtf</a> on fedi :)
