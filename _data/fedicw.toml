@@ -29,8 +29,15 @@ abspol.abr = "Abstract Politics"
 abspol.desc = """The post is about anything that isn't related to the
 politics of a particular country or any kind of current affairs. A
 general remark about capitalism is the sort of thing to expect."""
-fediblock.desc = """This is under politics because I guess it's about
-the politics of fedi instances. The post is about blocking a
+
+[meta]
+desc = """These tags are all related to fedi meta.
+They can sometimes be political or triggering."""
+meta.desc = """The post is about things currently happening on fedi.
+Often this can be political, triggering, or repetitive.
+Usually combined with another CW or what meta is referenced."""
+fediblock.abr = "Federated blocking"
+fediblock.desc = """The post is about blocking a
 particular instance, usually because of some harmful posts on it,
 meaning that the post will probably contain some kind of warn-able
 content, such would warrent the instance being called out."""
