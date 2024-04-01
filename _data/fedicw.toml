@@ -29,11 +29,33 @@ abspol.abr = "Abstract Politics"
 abspol.desc = """The post is about anything that isn't related to the
 politics of a particular country or any kind of current affairs. A
 general remark about capitalism is the sort of thing to expect."""
-fediblock.desc = """This is under politics because I guess it's about
-the politics of fedi instances. The post is about blocking a
-particular instance, usually because of some harmful posts on it,
-meaning that the post will probably contain some kind of warn-able
-content, such would warrent the instance being called out."""
+
+[meta]
+desc = """These tags are all related to events surrounding current
+events on fedi. They can often be too political or just plain annoying
+for a lot of people's tastes, so it's good to be able to filter them
+out."""
+meta.desc = """The post is about things currently happening on fedi.
+Often this can be political, triggering, or repetitive. Usually
+combined with another CW or what meta is referenced. It can also be in
+reference the company 'Meta', but those posts would be better off
+tagged with 'Facebook', for ambiguity's sake."""
+fediblock.desc = """The post is about blocking a particular instance,
+usually because of some harmful posts on it, meaning that the post
+will probably contain some kind of warn-able content, such would
+warrent the instance being called out."""
+subpost.desc = """The post is relating so another post on the platform,
+but does not directly link to it, meaning the reader may be missing
+some essential context."""
+birdsite.abr = "Twitter"
+birdsite.desc = """The post is about Twitter or something happening on
+Twitter. Denizens of the fediverse do not like to refer to the devil
+by his name."""
+"re: ...".abr = "Reply: ..."
+"re: ...".desc = """The post is a reply to a different post which has
+that content warning. Several fedi clients provide the option to
+automatically prepend this when replying to a post with a content
+warning."""
 
 [innapropriate]
 desc = "The content of these posts is not appropriate for minors."
