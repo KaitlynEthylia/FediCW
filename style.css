@@ -61,7 +61,7 @@ hr {
 	background: linear-gradient(var(--background) 0 0) padding-box, var(--theme);
 }
 
-main { margin: 3em; }
+main { margin: min(3em, 5vw); }
 
 section {
 	display: flex;
@@ -90,7 +90,7 @@ ul {
 
 li summary { margin: 1em; }
 div {
-	margin: 0 2em;
+	margin: 0 min(2em, 2vw);
 	border-top: 1px solid var(--border);
 	padding: 1em;
 }
@@ -121,10 +121,10 @@ h1, h2, h3, h4 {
 footer { text-align: center; }
 footer::after {
 	background: var(--theme);
-	height: 1em;
+	height: 2em;
 	position: absolute;
 	content: '';
-	top: max(calc(100vh - 1em), calc(100% + 2em));
+	top: max(calc(100vh - 2em), calc(100% + 2em));
 	background-color: #FFF;
 	left: 0;
 	right: 0;
