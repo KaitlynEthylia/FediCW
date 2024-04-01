@@ -101,21 +101,21 @@ camera. This is tagged because some people, particularly autistic
 people, struggle with eye contact and the images would cause
 discomfort. """
 ecchi.desc = """The content of the image is NSFW or close to it. See
-the NSFW tag further down."""
-"no alt text".desc = """Image doesn't contain any 'alt text' (The
+the NSFW tag above."""
+"no alt text".desc = """The image doesn't contain any 'alt text' (The
 caption with the image that describes it). Alt text is very important
 for visually-impared people, people using a screen-reader, people with
 slow internet, and people who just like having the caption, so unlike
 most other social media platforms, failing to provide alt text on an
-image without the warning, is generally frowned upon."""
+image without the warning is generally frowned upon."""
 
 [non-serious]
 desc = """These posts usually use the content warning as a 'title' or
 a 'preface', and not as a warning. Whether this is a valid use or an
 abuse of the content warning system is irrelavent."""
 what.desc = """The poster is unsure about what they've just posted.
-This usually indicated the content is a shitpost, and the tag is used
-to emphasise it's lack of seriousness."""
+This usually indicates that the content is a shitpost, and the tag is
+used to emphasise it's lack of seriousness."""
 "???".desc = """Usually a more extreme version of the 'what' tag.
 Indicates that the posters believes the content of the post to either
 be a top-tier shitpost, or absolutely incomprihensible."""
@@ -125,8 +125,8 @@ has decided to quote it, usually without context. Alternatively, this
 tag can be used to post something and pretend somebody else said it,
 so that you don't feel as ashamed when nobody finds it funny."""
 ooc.abr = "Out of Context"
-ooc.desc = """The poster is quoting something / something, but
-omitting the context of the quote, usually for comedic effect."""
+ooc.desc = """The poster is quoting someone / something, but omitting
+the context of the quote, usually for comedic effect."""
 
 [triggering]
 desc = """Posts using these tags are covering content that could be
@@ -148,10 +148,10 @@ food.desc = """The post contains mentions of and/or images of food.
 This are covered as they can be triggering for people with eating
 disorders."""
 "ment: ...".abr = "Mentions: ..."
-"ment: ...".desc = """Anything that someones considers may be
-upsetting about the post may sometimes be put in a 'ment: ...' tag
-to indicate the post contains references to it, but is not directly
-about it. For example 'ment: self harm' or 'ment: sh' may be used
-when a post mentions self harm, but not in a specific manner, or
-simply in passing."""
+"ment: ...".desc = """Anything that someone considers may be upsetting
+about the post may sometimes be put in a 'ment: ...' tag to indicate
+the post contains references to it, but is not directly about it. For
+example 'ment: self harm' or 'ment: sh' may be used when a post
+mentions self harm, but not in a specific manner, or simply in
+passing."""
 
