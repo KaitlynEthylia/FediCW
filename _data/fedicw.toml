@@ -143,7 +143,7 @@ sh.abr = "Self Harm"
 sh.desc = """The post refeces self harm."""
 sa.abr = "Sexual Assault"
 sa.desc = """The post contains mentions of sexual assault."""
-csa.abr "Child Sexual Assault"
+csa.abr = "Child Sexual Assault"
 csa.desc = """The post contains mentions of sexual assault
 specifically targetting minors."""
 sui.abr = "Suicide"
