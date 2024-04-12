@@ -56,6 +56,11 @@ by his name."""
 that content warning. Several fedi clients provide the option to
 automatically prepend this when replying to a post with a content
 warning."""
+mfm.abr = "Misskey-Flavoured Markdown"
+mfm.desc = """The post uses 'Misskey-Flavoured Markdown", A variation
+of markdown that included several tags for styling emoji and the like
+in a way that is not particularly readable to somebody on a client
+that cannot understand MFM."""
 
 [innapropriate]
 desc = "The content of these posts is not appropriate for minors."
