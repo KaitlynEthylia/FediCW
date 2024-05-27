@@ -135,7 +135,7 @@ s.desc = "The post is intended to be sarcastic."
 j.abr = "Joke"
 j.desc = "The post is a joke and should not be taken seriously"
 hj.abr = "Half Joking"
-hj.abr = """The post is halfway a joke, but has some element of
+hj.desc = """The post is halfway a joke, but has some element of
 seriousness to it. The /hj tag is often considered unhelpful as
 it's used in a handful of ambiguous ways, so it's generally better
 to avoid it and be more clear in your intentions."""
