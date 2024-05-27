@@ -119,6 +119,34 @@ interpretted positively or negatively, or it is simply neutral."""
 or applies to the post, for example 'mh+?' means that the post is
 about mental health, and the poster thinks is may be a good thing, but
 is unsure."""
+"/XX".abr = "Tone Indicator"
+"/XX".desc = """A tone indocator. They are used to convery the intended
+tone of a post. They are usually appended to the end of a message but
+are sometimes included in the content warning instead. Specific tone
+indicators are explained in the Tone Indicators section."""
+
+["tone indicators"]
+desc = """Tone indicators are used to convery the intended tone of a
+post. They are usually appended to the end of a message but are
+sometimes included in the content warning instead.
+"""
+s.abr = "Sarcastic"
+s.desc = "The post is intended to be sarcastic."
+j.abr = "Joke"
+j.desc = "The post is a joke and should not be taken seriously"
+hj.abr = "Half Joking"
+hj.abr = """The post is halfway a joke, but has some element of
+seriousness to it. The /hj tag is often considered unhelpful as
+it's used in a handful of ambiguous ways, so it's generally better
+to avoid it and be more clear in your intentions."""
+srs.abr = "Serious"
+srs.desc = "The post should be taken seriously"
+nsrs.abr = "Non-Serious"
+nsrs.desc = """Under no circumstances should the post be taken
+seriously."""
+lh.abr = "Lighthearted"
+lh.desc = """The post may come across in an overly mean, agressive
+and/or serious manner, but it should not be taken as such."""
 
 [photos]
 desc = """These are tags that apply specifically to posts with images
