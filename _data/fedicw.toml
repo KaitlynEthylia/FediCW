@@ -119,6 +119,12 @@ interpretted positively or negatively, or it is simply neutral."""
 or applies to the post, for example 'mh+?' means that the post is
 about mental health, and the poster thinks is may be a good thing, but
 is unsure."""
+ish.abr = "Somewhat"
+"-ish".desc = """The tag applies but not to a great extent. It may be
+ambiguous or the content may only lightly talk about the CWd topic.
+(just like normal english usage of the '-ish' suffix)"""
+"-poi".abr = "-ish"
+"-poi".desc = "Same as the '-ish' suffix. Originating from Japanese."
 "/XX".abr = "Tone Indicator"
 "/XX".desc = """A tone indocator. They are used to convery the intended
 tone of a post. They are usually appended to the end of a message but
