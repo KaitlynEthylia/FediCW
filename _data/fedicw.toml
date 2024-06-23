@@ -117,7 +117,7 @@ interpretted positively or negatively, or it is simply neutral."""
 "?".abr = "Unsure if tag applies"
 "?".desc = """The poster is unsure whether or not the tag is necessary
 or applies to the post, for example 'mh+?' means that the post is
-about mental health, and the poster thinks is may be a good thing, but
+about mental health, and the poster thinks it may be a good thing, but
 is unsure."""
 ish.abr = "Somewhat"
 "-ish".desc = """The tag applies but not to a great extent. It may be
@@ -139,7 +139,7 @@ sometimes included in the content warning instead.
 s.abr = "Sarcastic"
 s.desc = "The post is intended to be sarcastic."
 j.abr = "Joke"
-j.desc = "The post is a joke and should not be taken seriously"
+j.desc = "The post is a joke and should not be taken seriously."
 hj.abr = "Half Joking"
 hj.desc = """The post is halfway a joke, but has some element of
 seriousness to it. The /hj tag is often considered unhelpful as
@@ -165,7 +165,7 @@ ec.desc = """Usually used in addition with the 'selfie' tag, this tag
 indicated that the image contains somebody making eye-contact with the
 camera. This is tagged because some people, particularly autistic
 people, struggle with eye contact and the images would cause
-discomfort. """
+discomfort."""
 ecchi.desc = """The content of the image is NSFW or close to it. See
 the NSFW tag above."""
 "no alt text".desc = """The image doesn't contain any 'alt text' (The
@@ -201,14 +201,14 @@ definition of what the content warning system is intended for for.
 Almost all of the abbreviations are pretty self-explanatory, so the
 descriptions will be short."""
 sh.abr = "Self Harm"
-sh.desc = """The post refeces self harm."""
+sh.desc = """The post references self harm."""
 sa.abr = "Sexual Assault"
 sa.desc = """The post contains mentions of sexual assault."""
 csa.abr = "Child Sexual Assault"
 csa.desc = """The post contains mentions of sexual assault
 specifically targetting minors."""
 sui.abr = "Suicide"
-sui.desc = """The post refeces suicide. Unfortunately there doesn't
+sui.desc = """The post references suicide. Unfortunately there doesn't
 appear to be a common distinction between mentions of suicide and
 mentions of someone actually commiting suicide."""
 alc.abr = "Alcohol"
