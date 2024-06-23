@@ -24,7 +24,9 @@ XXpol.abr = "[country] Politics"
 XXpol.desc = """The post is about current politics in a particular
 country. The letters at the beginning of the tag are usually the
 particular country code. i.e. 'uspol': USA politics; 'ukpol': UK
-politics; 'depol': German politics."""
+politics; 'depol': German politics.
+Note that the country code of Norway is `no`, so `nopol` is actually
+about politics in Norway (not "not about politics")."""
 abspol.abr = "Abstract Politics"
 abspol.desc = """The post is about anything that isn't related to the
 politics of a particular country or any kind of current affairs. A
